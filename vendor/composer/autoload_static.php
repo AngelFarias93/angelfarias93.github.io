@@ -27,7 +27,6 @@ class ComposerStaticInitc3238fcb0a2c003bc2eae91dc64780aa
         'P' => 
         array (
             'PhpOption\\' => 10,
-            'PHPMailer\\PHPMailer\\' => 20,
         ),
         'M' => 
         array (
@@ -68,10 +67,6 @@ class ComposerStaticInitc3238fcb0a2c003bc2eae91dc64780aa
         'PhpOption\\' => 
         array (
             0 => __DIR__ . '/..' . '/phpoption/phpoption/src/PhpOption',
-        ),
-        'PHPMailer\\PHPMailer\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/phpmailer/phpmailer/src',
         ),
         'MatthiasMullie\\PathConverter\\' => 
         array (

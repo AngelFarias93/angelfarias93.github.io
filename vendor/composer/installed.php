@@ -1,22 +1,22 @@
 <?php return array(
     'root' => array(
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => NULL,
+        'reference' => '8e1f8fe19ac4102e29bc87d15ee72847a2d33a20',
         'name' => '__root__',
         'dev' => true,
     ),
     'versions' => array(
         '__root__' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => NULL,
+            'reference' => '8e1f8fe19ac4102e29bc87d15ee72847a2d33a20',
             'dev_requirement' => false,
         ),
         'graham-campbell/result-type' => array(
@@ -38,12 +38,12 @@
             'dev_requirement' => true,
         ),
         'matthiasmullie/minify' => array(
-            'pretty_version' => '1.3.66',
-            'version' => '1.3.66.0',
+            'pretty_version' => '1.3.68',
+            'version' => '1.3.68.0',
             'type' => 'library',
             'install_path' => __DIR__ . '/../matthiasmullie/minify',
             'aliases' => array(),
-            'reference' => '45fd3b0f1dfa2c965857c6d4a470bea52adc31a6',
+            'reference' => 'c00fb02f71b2ef0a5f53fe18c5a8b9aa30f48297',
             'dev_requirement' => false,
         ),
         'matthiasmullie/path-converter' => array(
@@ -53,15 +53,6 @@
             'install_path' => __DIR__ . '/../matthiasmullie/path-converter',
             'aliases' => array(),
             'reference' => 'e7d13b2c7e2f2268e1424aaed02085518afa02d9',
-            'dev_requirement' => false,
-        ),
-        'phpmailer/phpmailer' => array(
-            'pretty_version' => 'v6.3.0',
-            'version' => '6.3.0.0',
-            'type' => 'library',
-            'install_path' => __DIR__ . '/../phpmailer/phpmailer',
-            'aliases' => array(),
-            'reference' => '4a08cf4cdd2c38d12ee2b9fa69e5d235f37a6dcb',
             'dev_requirement' => false,
         ),
         'phpoption/phpoption' => array(
@@ -83,12 +74,12 @@
             'dev_requirement' => false,
         ),
         'symfony/polyfill-ctype' => array(
-            'pretty_version' => 'v1.23.0',
-            'version' => '1.23.0.0',
+            'pretty_version' => 'v1.26.0',
+            'version' => '1.26.0.0',
             'type' => 'library',
             'install_path' => __DIR__ . '/../symfony/polyfill-ctype',
             'aliases' => array(),
-            'reference' => '46cd95797e9df938fdd2b03693b5fca5e64b01ce',
+            'reference' => '6fd1b9a79f6e3cf65f9e679b23af304cd9e010d4',
             'dev_requirement' => false,
         ),
         'symfony/polyfill-mbstring' => array(
