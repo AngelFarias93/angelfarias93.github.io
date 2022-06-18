@@ -1,0 +1,28 @@
+/******************************************************************************
+ * TECSOLT SYSTEM
+ *
+ * Copyright (c) 2020, Tecsolt (https://www.tecsolt.com)
+ *
+ * @version 1.0.1
+ * @fecha 19/10/2020
+******************************************************************************/
+
+// ABSTRACTS - Variables y Funciones
+// BASE - Estilos básicos
+@import"base/style";
+// COMPONENTS - Estilos básicos de los elementos
+@import"components/timeLine1";
+// @import"components/timeLine2";
+// LAYOUTS - Estilos básicos del header, sidebar, footer y settings
+// PAGES - Páginas del proyecto
+@import"pages/404";
+// THEMES - Temas del proyecto
+// VENDORS - Librerias
+@import"vendors/adminlte3";
+@import"vendors/tempusdominus";
+@import"vendors/icheck-bootstrap";
+@import"vendors/overlayscrollbars";
+@import"vendors/daterangepicker";
+// @import"vendors/datatables-bootstrap4";
+// @import"vendors/datatables-responsive-bootstrap4";
+@import"vendors/select2";
