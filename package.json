@@ -1,0 +1,30 @@
+{
+    "name": "angelfarias93.github.io",
+    "version": "1.0.0",
+    "description": "Portafolio MAFM93",
+    "author": {
+        "name": "Miguel Angel Farias Monroy",
+        "email": "angelfarias32@gmail.com",
+        "url": "https://tecsolt.com"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start-node": "node index.js",
+        "start": "webpack serve --open 'google-chrome'",
+        "watch": "webpack --watch",
+        "prod": "webpack --mode production",
+        "dev": "webpack --mode development"
+    },
+    "dependencies": {
+        "copy-webpack-plugin": "^8.0.0",
+        "webpack": "^5.26.3",
+        "webpack-cli": "^4.5.0"
+    },
+    "devDependencies": {
+        "@fortawesome/fontawesome-free": "5.15.3",
+        "jquery": "3.5.1",
+        "moment": "^2.29.1",
+        "select2": "^4.0.13",
+        "sweetalert2": "^11.4.17"
+    }
+}
