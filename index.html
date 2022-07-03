@@ -58,6 +58,7 @@
         =====================================-->
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="public/css/style.css">
     <!--=====================================
         PLUGINS DE JS
         =====================================-->
@@ -66,24 +67,68 @@
 </head>
 
 <body>
-    <script>
-        Swal.fire({
-            title: '<strong>HTML <u>example</u></strong>',
-            icon: 'info',
-            html: 'You can use <b>bold text</b>, ' +
-                '<a href="//sweetalert2.github.io">links</a> ' +
-                'and other HTML tags',
-            showCloseButton: true,
-            showCancelButton: true,
-            focusConfirm: false,
-            confirmButtonText: '<i class="fa fa-thumbs-up"></i> Great!',
-            confirmButtonAriaLabel: 'Thumbs up, great!',
-            cancelButtonText: '<i class="fa fa-thumbs-down"></i>',
-            cancelButtonAriaLabel: 'Thumbs down'
-        });
-    </script>
-    <button type="button" id="actPress">¡Da clic aqui!</button>
-    <script src="dist/main.js"></script>
+    <div class="wrapper">
+        <!--=================
+        NAVBAR
+        =================-->
+        <nav class="navbar">
+            <div class="menu">
+                <i class="fas fa-bars"></i>
+            </div>
+            <div class="lang">ENG</div>
+            <div class="search">
+                <i class="fas fa-search"></i>
+            </div>
+        </nav>
+        <!--=================
+        SOCIAL MEDIA
+        =================-->
+        <div class="media">
+            <ul>
+                <li>Facebook</li>
+                <li>Instagram</li>
+                <li>Twitter</li>
+            </ul>
+        </div>
+        <!--=================
+        TEXT
+        =================-->
+        <div class="text">
+            <h1>Angel&FM</h1>
+            <h3>Collection 2022 <br> Duality</h3>
+            <p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido
+                usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen.
+            </p>
+        </div>
+        <!--=================
+        SPONSOR
+        =================-->
+        <div class="sponsor">
+            <img src="public/img/sponsor-logo.png" alt="Logo">
+            <p>Official sponsor</p>
+        </div>
+        <!--=================
+        DISTORTION
+        =================-->
+        <div class="distortion"></div>
+
+        <!-- gsap -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js" integrity="sha256-lPE3wjN2a7ABWHbGz7+MKBJaykyzqCbU96BJWjio86U=" crossorigin="anonymous"></script>
+        <!-- three js -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/108/three.min.js" integrity="sha256-3mBEX8I0uMLF7+AUjJeTCelosuorzYpqwBMBPDTyQqY=" crossorigin="anonymous"></script>
+        <!-- hover-effect js -->
+        <script src="public/js/hover-effect.umd.js"></script>
+        <script src="public/js/general.js"></script>
+        <script>
+            var myAnimation = new hoverEffect({
+                parent: document.querySelector('.distortion'),
+                intensity: 0.3,
+                image1: './public/img/01.png',
+                image2: './public/img/02.png',
+                displacementImage: './public/img/diss.png'
+            });
+        </script>
+    </div>
 </body>
 
 </html>

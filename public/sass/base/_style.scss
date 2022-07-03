@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins';
+    background-color: #D8D8E2;
+    width: 100%;
+    height: 100vh;
+}
+
+ul {
+    list-style: none;
+}
+
+
+/*=================
+NAVBAR
+=================*/
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+}
+
+.navbar>div {
+    padding: 0 30px;
+    font-size: 20px;
+}
+
+.navbar .menu {
+    margin-right: auto;
+}
+
+.navbar .lang {
+    font-size: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+
+/*=================
+SOCIAL MEDIA
+=================*/
+
+.media ul {
+    position: absolute;
+    bottom: 250px;
+    left: -140px;
+    transform: rotate(-90deg);
+}
+
+.media ul li {
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    display: inline-block;
+    padding: 0 30px;
+}
+
+
+/*=================
+TEXT
+=================*/
+
+.text {
+    position: absolute;
+    top: 200px;
+    left: 100px;
+    transform: rotate(-90deg);
+}
+
+.text h1 {
+    font-size: 120px;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: -10px;
+}
+
+.text h1::after {
+    content: "duality";
+    position: absolute;
+    top: 40px;
+    left: -80px;
+    color: #EFDE74;
+    z-index: -1;
+    font-size: 150px;
+    font-weight: 600;
+    letter-spacing: 8px;
+}
+
+.text h3 {
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 600;
+    line-height: 1;
+}
+
+.text p {
+    width: 200px;
+    font-size: 12px;
+    margin-top: 30px;
+    font-weight: 500;
+}
+
+
+/*=================
+SPONSOR
+=================*/
+
+.sponsor {
+    position: absolute;
+    right: 100px;
+    bottom: 100px;
+    text-align: center;
+}
+
+.sponsor img {
+    width: 200px;
+    transform: rotate(-90deg);
+}
+
+.sponsor p {
+    margin-top: 20px;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 900;
+    transform: rotate(180deg);
+}
+
+
+/*=================
+DISTORTION
+=================*/
+
+.distortio {
+    width: 580px;
+    height: 720px;
+}
